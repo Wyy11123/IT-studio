@@ -1,0 +1,23 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #A1A1A1;
+    padding: 30px 0;
+}
+.nav{
+    &-list{
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+        gap: 30px;
+        font-size: 16px;
+        &-link{
+            font-family: Montserrat;
+            font-weight: 500;
+            line-height: 19.5px;
+            color: #FFF;
+        }
+    }
+}
