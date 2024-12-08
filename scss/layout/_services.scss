@@ -1,42 +1,70 @@
-.services{
+.services {
     margin-top: 110px;
-    &-title{
-font-family: Montserrat;
-font-size: 36px;
-font-weight: 700;
-line-height: 52.66px;
-text-align: center;
+  
+    &-title {
+      font-family: Montserrat;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 52.66px;
+      text-align: center;
     }
-    &-text{
-        margin-top: 32px;
-        color: #999999;
+  
+    &-text {
+      margin-top: 32px;
+      color: #999999;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25.36px;
+      text-align: center;
+    }
+  
+    &-list {
+      display: flex;
+      margin-top: 70px;
+      gap: 27px;
+      margin-bottom: 55px;
+      &-title{
         font-family: Montserrat;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.94px;
+        text-align: left;
+
+      }
+      &-text{
+        font-family: Montserrat;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 25.36px;
-        text-align: center;
+        line-height: 22.19px;
+        text-align: left;
+        color: #999999;
+      }
     }
-    &-list{
-        display: flex;
-        margin-top: 70px;
-        gap: 27px;
-        margin-bottom: 55px;
+  
+    &-link {
+      margin: 0 auto;
+      display: block;
+      margin-top: 50px;
+      background-color: rgb(87, 87, 216);
+      width: 200px;
+      height: 45px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      margin-bottom: 105px;
     }
-    &-link{
-        margin: 0 auto;
-        display: block;
-        margin-top: 50px;
-        background-color: rgb(87, 87, 216);
-        width: 200px;
-        height: 45px;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        }
-        &-div{
-            display: flex;
-            gap: 52px;
-        }
-}
+  
+    &-item-wrap {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+    }
+  
+    &-icon {
+      width: 80px;
+      height: 80px;
+    }
+  }
